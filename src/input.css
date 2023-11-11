@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .sstitle {
+        @apply text-[#4B6072] font-bold text-center text-[30px];
+    }
+    .tsstitle {
+        @apply text-center;
+    }
+    .btnsstitle {
+        @apply bg-[#FDBA74] px-5 py-2 mx-[40%] mb-10;
+    }
+    .likeshadow {
+        @apply text-white text-center font-bold backdrop-opacity-30 backdrop-invert bg-black/30 my-auto py-2 w-full;
+    }
+    .longbg {
+        @apply bg-cover bg-center text-center text-white justify-center md:mt-20 mt-2 py-20;
+    }
+
+    .smallbg{
+        @apply bg-cover h-[300px] w-[full] flex;
+    }
+}
